@@ -16,7 +16,7 @@ describe('DOM', () => {
 		assert.equal(typeof cardMarkContent, 'string');
 	});
 
-	it("should have a title element that equals 'Join our community' word in first section element", () => {
+	it("should have a title element that equals 'Join our community' in first section element", () => {
 		const sectionEls = document.querySelectorAll('section');
 		const firstSectionEl = sectionEls[0];
 		const cardTitleEl = firstSectionEl.querySelector('.card__title');
