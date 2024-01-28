@@ -9,11 +9,11 @@ describe('DOM', () => {
 		document.body.removeChild(document.getElementById('wrapper'));
 	});
 
-	it('should have a string type of card mark content element', () => {
-		const cardMarkContent =
-			document.querySelector('.card__mark').textContent;
+	it('should have a string type of card subtitle content element', () => {
+		const cardSubtitleContent =
+			document.querySelector('.card__subtitle').textContent;
 
-		assert.equal(typeof cardMarkContent, 'string');
+		assert.equal(typeof cardSubtitleContent, 'string');
 	});
 
 	it("should have a title element that equals 'Join our community' in first section element", () => {
